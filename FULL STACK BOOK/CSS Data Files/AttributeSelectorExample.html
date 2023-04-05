@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!-- Internal Embed --->
+<style>
+
+li[class] 
+{
+    font-size: 200%;
+}
+
+li[class="a"] 
+{
+    background-color: yellow;
+}
+
+li[class~="a"] 
+{
+    color: red;
+}
+  
+h1,p,div 
+{
+	font-size:10px;
+	color:green;
+}
+
+</style>
+</head>
+<body>
+
+<h1>Attribute presence and value selectors</h1>
+<ul>
+    <li>Item 1</li>
+    <li class="a">Item 2</li>
+    <li class="b a">Item 3</li>
+    <li class="ab">Item 4</li>
+</ul>
+
+<!-- inline embed -->    
+<p style="font-size:32px">Attribute presence and value selectors</p>
+
+<div>Attribute presence and value selectors</div>
+
+</body>
+</html>
